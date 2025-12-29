@@ -1,52 +1,29 @@
 
-
-We can refine tone later, but this is already \*\*very solid for public launch\*\*.
-
-
-
 ---
 
+## ✅ `LICENSE.md` (MIT, GitHub-standard)
 
+> MIT is the right choice here: permissive, widely trusted, and appropriate for a framework/operating model.
 
-\# 5️⃣ Next concrete steps (recommended order)
+```md
+MIT License
 
+Copyright (c) 2025
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1\. \*\*Create the new repo\*\*: `specarium` or `specarium-template`
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2\. Copy in the \*\*generic layers only\*\* (as discussed earlier)
-
-3\. Replace constitution + templates with \*\*generic versions\*\*
-
-4\. Add the README above
-
-5\. Publish as public
-
-
-
-Your \*\*Insurance Broker Cockpit\*\* repo stays untouched and continues as a concrete product built \*on top of\* Specarium.
-
-
-
----
-
-
-
-\## If you want next
-
-I can now help you with:
-
-\- a \*\*generic constitution.md\*\* tailored for Specarium
-
-\- refactoring your current broker-specific constitution into a \*\*product-level extension\*\*
-
-\- a \*\*“Using Specarium for a new project”\*\* guide
-
-\- positioning Specarium for LinkedIn / blog / talks (without buzzwords)
-
-
-
-Just tell me what you want to tackle next.
-
-
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
