@@ -1,92 +1,56 @@
-\# Specarium
+# Specarium
 
-
-
-\*\*Specarium\*\* is a spec-driven operating model and incubator for building software systems
-
+**Specarium** is a spec-driven operating model and incubator for building software systems
 with clarity, governance, and repeatable execution.
 
-
-
-It provides a reusable, domain-agnostic foundation where product intent is captured as
-
-specifications and systematically transformed into plans, tasks, and implementation —
-
-with humans retaining ownership of meaning and decisions.
-
-
+It provides a reusable, domain-agnostic foundation where **product intent is captured as specifications**
+and systematically transformed into plans, tasks, and implementation — while humans retain
+ownership of meaning and decisions.
 
 ---
 
-
-
-\## Why Specarium?
-
-
+## Why Specarium?
 
 Most software projects fail not because of bad code, but because of:
 
-\- unclear intent
+- unclear intent
+- implicit decisions
+- missing governance
+- fragile handoffs between planning and execution
 
-\- missing governance
+Specarium addresses this by making **specifications the primary source of truth** and by enforcing
+clear boundaries between:
 
-\- ad-hoc decisions
-
-\- and fragile handoffs between planning and execution
-
-
-
-Specarium addresses this by making \*\*specifications the primary source of truth\*\* and
-
-by enforcing clear boundaries between:
-
-\- governance
-
-\- product intent
-
-\- and execution
-
-
+- governance
+- product intent
+- and execution
 
 ---
 
+## Core Principles
 
+- **Spec-first**  
+  No meaningful change without an explicit specification.
 
-\## Core Principles
+- **Human-owned meaning**  
+  AI assists execution, but never defines intent or business meaning.
 
+- **Governance by design**  
+  Authority, constraints, and quality gates are explicit and versioned.
 
+- **Repeatability**  
+  New projects start from the same disciplined baseline.
 
-\- \*\*Spec-first\*\*: No meaningful change without a specification.
-
-\- \*\*Human-owned meaning\*\*: AI assists execution, never defines intent.
-
-\- \*\*Governance by design\*\*: Authority, quality gates, and constraints are explicit.
-
-\- \*\*Repeatability\*\*: New projects start from the same disciplined baseline.
-
-\- \*\*Domain agnostic\*\*: Works for SaaS, internal tools, regulated systems, and experiments alike.
-
-
+- **Domain agnostic**  
+  Suitable for SaaS products, internal tools, regulated systems, and experiments.
 
 ---
 
-
-
-\## Repository Structure
-
-
+## Repository Structure
 
 ```text
-
 project/        # Governance, quality rules, agent role contracts (reusable)
-
-.specify/       # SpecKit memory and templates
-
-.codex/         # Codex / SpecKit execution configuration
-
+.specify/       # Spec Kit memory and templates
+.codex/         # Codex / Spec Kit execution configuration
 docs/           # Framework documentation
-
 specs/          # (created per project) product capabilities and features
-
-
-
