@@ -1,0 +1,12 @@
+# ~/.codex/config.toml
+# Shared by Codex CLI + VS Code extension. :contentReference[oaicite:4]{index=4}
+
+preferred_auth_method = "chatgpt"  # or "apikey" if you use API keys
+
+# Optional but helpful: pick a consistent default model for “agentic” work.
+# (Exact model names available to you can vary by plan.)
+model = "codex"  # keep this if you see it working; otherwise select from your Codex UI
+
+# Strongly recommended: keep tasks local by default.
+# Codex supports local vs cloud tasks conceptually; default to local. :contentReference[oaicite:5]{index=5}
+task_mode = "local"
